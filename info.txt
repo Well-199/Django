@@ -1,0 +1,18 @@
+1 - mkdir "Nome da Pasta"
+2 - python -m venv env - Cria o ambiente virtual
+3 - .\env\Scripts\Activate.bat - ativa o ambiente virtual
+OBS - .bat no CMD e .ps1 no powerShell do vsCode
+
+Caso de erro abra o powerShell do windows como administrador e execute o comando abaixo
+ou veja o tutorial no link: https://www.youtube.com/watch?v=m1TYpvIYm74&t=178s
+
+Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
+
+Confirme com S pra todos volter no CMD e execute a linha 3 novamente
+
+pip install django - instala o Django Framework
+pip freeze > requirements.txt
+
+4 - django-admin startproject "Nome do Projeto ."
+
+deactivate - desativa o ambiente virtual
